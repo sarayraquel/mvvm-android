@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import com.example.androidchallenge.R
-import com.example.androidchallenge.data.repository.CurrencyTypeTypeRepositoryImpl
+import com.example.androidchallenge.data.repository.CurrencyRepositoryImpl
 import com.example.androidchallenge.domain.model.CurrencyTypeModel
 import com.example.androidchallenge.domain.usecase.GetCurrencyTypeUseCase
 import com.example.androidchallenge.domain.usecase.GetCurrencyUseCase
@@ -29,8 +29,8 @@ class CurrencyTypeActivity : AppCompatActivity() {
 
         exchangueRateViewModel = getViewModel {
             ExchangueRateViewModel(
-                    GetCurrencyTypeUseCase(CurrencyTypeTypeRepositoryImpl()),
-                    GetCurrencyUseCase(CurrencyTypeTypeRepositoryImpl())
+                    GetCurrencyTypeUseCase(CurrencyRepositoryImpl()),
+                    GetCurrencyUseCase(CurrencyRepositoryImpl())
             )
         }
 

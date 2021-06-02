@@ -1,10 +1,10 @@
 package com.example.androidchallenge.domain.usecase
 
 import com.example.androidchallenge.domain.model.CurrencyTypeModel
-import com.example.androidchallenge.domain.repository.CurrencyTypeRepository
+import com.example.androidchallenge.domain.repository.CurrencyRepository
 
-class GetCurrencyUseCase(private val currencyTypeRepository: CurrencyTypeRepository) {
+class GetCurrencyUseCase(private val currencyRepository: CurrencyRepository) {
     suspend operator fun invoke(jsonFile: String, code: String): CurrencyTypeModel? {
-        return currencyTypeRepository.getCurrency(jsonFile, code)
+        return currencyRepository.getCurrency(jsonFile, code)
     }
 }
