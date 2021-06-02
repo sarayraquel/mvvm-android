@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android Challenge</string>
+    <string name="title_currency_origin">Tú envías:</string>
+    <string name="option_currency_origin">Dólares</string>
+    <string name="title_currency_destination">Tú recibes:</string>
+    <string name="option_currency_destination">Soles</string>
+    <string name="title_buy">Compra:</string>
+    <string name="separator_rate">l</string>
+    <string name="title_sale">Venta:</string>
+    <string name="go_to_transaction">Empieza tu operación</string>
+</resources>

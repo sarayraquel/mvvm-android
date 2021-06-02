@@ -1,0 +1,37 @@
+[
+  {
+    "description": "Perú",
+    "code": "PEN",
+    "rate":0.73079661621421
+  },
+  {
+    "description": "European Union",
+    "code": "EUR",
+    "rate":0.15638631379393
+  },
+  {
+    "description": "United States",
+    "code": "USD",
+    "rate":0.19115015022714
+  },
+  {
+    "description": "Japan",
+    "code": "JPY",
+    "rate":20.930800023159
+  },
+  {
+    "description": "United Kingdom",
+    "code": "GBP",
+    "rate":0.13442609039196
+  },
+  {
+    "description": "Switzerland",
+    "code": "CHF",
+    "rate":0.17187500593804
+  },
+  {
+    "description": "Canada",
+    "code": "CAD",
+    "rate":0.23043438018612
+  }
+]
